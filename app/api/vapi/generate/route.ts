@@ -1,3 +1,6 @@
+export const runtime = "nodejs";          // 👈 REQUIRED
+export const dynamic = "force-dynamic";   // 👈 REQUIRED
+
 import { generateText } from "ai";
 import { google } from "@ai-sdk/google";
 
